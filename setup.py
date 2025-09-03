@@ -6,6 +6,7 @@ setup(
     description="The next-generation AI-driven command-line tool.",
     author="Cynetics Team",
     packages=find_packages(),
+    py_modules=["cynetics_simple"],
     install_requires=[
         "click>=8.0",
         "pyyaml>=6.0",
@@ -15,6 +16,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cynetics=cynetics.cli.main:main',
+            'cynetics-simple=cynetics_simple:simple_cli',
         ],
     },
 )

@@ -1,2 +1,3 @@
 [console_scripts]
 cynetics = cynetics.cli.main:main
+cynetics-simple = cynetics_simple:simple_cli

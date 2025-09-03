@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Wrapper script for simplified cynetics CLI
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Change to the project directory
+cd "$PROJECT_ROOT"
+
+# Run the simplified Python CLI
+python -c "import sys; sys.path.insert(0, '$PROJECT_ROOT'); from cynetics_simple import simple_cli; simple_cli()"

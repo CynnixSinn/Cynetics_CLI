@@ -1,0 +1,20 @@
+# Example configuration file for Cynetics CLI
+# This is a simplified example for getting started
+
+model_providers:
+  # For local models with Ollama (recommended for getting started)
+  ollama:
+    host: "http://localhost:11434"
+    model: "llama3"
+  
+  # For OpenAI API (uncomment and add your API key if you have one)
+  # openai:
+  #   api_key: "sk-your-api-key-here"
+  #   model: "gpt-4"
+
+tools:
+  enabled:
+    - "file_manager"
+    - "web_search"
+
+tui_enabled: true
