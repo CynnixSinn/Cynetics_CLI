@@ -1,0 +1,17 @@
+# Sample configuration file for Cynetics CLI
+
+model_providers:
+  openai:
+    api_key: "sk-..."  # Replace with your OpenAI API key
+    model: "gpt-4"
+  ollama:
+    host: "http://localhost:11434"
+    model: "llama3"
+
+tools:
+  enabled:
+    - "file_manager"
+    - "web_search"
+    - "example_plugin"
+
+tui_enabled: true

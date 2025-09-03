@@ -1,0 +1,27 @@
+# Sample Git Setup Workflow
+# This workflow demonstrates setting up a new Git repository
+
+steps:
+  - name: Create project directory
+    command: mkdir {{project_name}}
+    description: Create a new directory for the project
+  
+  - name: Change to project directory
+    command: cd {{project_name}}
+    description: Navigate to the project directory
+  
+  - name: Initialize Git repository
+    command: git init
+    description: Initialize a new Git repository
+  
+  - name: Create README file
+    command: echo '# {{project_name}}' > README.md
+    description: Create a basic README file
+  
+  - name: Add README to staging
+    command: git add README.md
+    description: Add the README file to the staging area
+  
+  - name: Make initial commit
+    command: git commit -m "Initial commit"
+    description: Commit the initial README file

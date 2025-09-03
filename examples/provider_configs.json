@@ -1,0 +1,26 @@
+{
+  "anthropic": {
+    "api_key": "your-anthropic-api-key-here",
+    "model": "claude-3-opus-20240229"
+  },
+  "openrouter": {
+    "api_key": "your-openrouter-api-key-here",
+    "model": "openai/gpt-4-turbo"
+  },
+  "qwen": {
+    "api_key": "your-qwen-api-key-here",
+    "model": "qwen-max"
+  },
+  "deepseek": {
+    "api_key": "your-deepseek-api-key-here",
+    "model": "deepseek-chat"
+  },
+  "cohere": {
+    "api_key": "your-cohere-api-key-here",
+    "model": "command-r-plus"
+  },
+  "google": {
+    "api_key": "your-google-api-key-here",
+    "model": "gemini-pro"
+  }
+}

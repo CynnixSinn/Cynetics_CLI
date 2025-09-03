@@ -1,0 +1,20 @@
+[
+  {
+    "id": "f5101fe3-fc27-4f1d-9689-45cb8c7ade79",
+    "command": "ls /nonexistent_directory",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "ls: cannot access '/nonexistent_directory': No such file or directory\n",
+    "success": false,
+    "diagnosed_at": "2025-09-02T20:26:04.673126",
+    "analysis": {
+      "issues": [
+        "File or directory not found"
+      ],
+      "suggestions": [
+        "Check the file path and make sure it exists"
+      ],
+      "dependencies": []
+    }
+  }
+]

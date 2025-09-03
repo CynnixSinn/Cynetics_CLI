@@ -1,0 +1,18 @@
+{
+  "ec0152fd-04d0-4dd1-9282-c7057736ce91": {
+    "id": "ec0152fd-04d0-4dd1-9282-c7057736ce91",
+    "name": "Sample Task",
+    "description": "A sample task for demonstration",
+    "command": "echo 'Hello from Cynetics CLI'",
+    "environment": "local",
+    "status": "completed",
+    "created_at": "2025-09-02T20:30:13.785489",
+    "executed_at": "2025-09-02T20:31:40.625099",
+    "result": {
+      "returncode": 0,
+      "stdout": "Hello from Cynetics CLI\n",
+      "stderr": "",
+      "success": true
+    }
+  }
+}

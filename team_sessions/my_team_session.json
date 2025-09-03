@@ -1,0 +1,20 @@
+{
+  "session_id": "my_team_session",
+  "created_at": "2025-08-31T19:44:41.989333",
+  "users": {
+    "user1": {
+      "name": "Alice",
+      "joined_at": "2025-08-31T19:44:41.990005",
+      "last_active": "2025-08-31T19:45:06.535075"
+    }
+  },
+  "chat_history": [
+    {
+      "user_id": "user1",
+      "user_name": "Alice",
+      "message": "Hello team! Welcome to our session.",
+      "timestamp": "2025-08-31T19:45:06.535081"
+    }
+  ],
+  "shared_context": {}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cynetics-cli",
+  "version": "0.1.0",
+  "description": "The next-generation AI-driven command-line tool.",
+  "main": "cynetics/cli.py",
+  "scripts": {
+    "start": "python -m cynetics.cli",
+    "dev": "python -m cynetics.cli --repl"
+  },
+  "dependencies": {
+    "click": "^8.0",
+    "pydantic": "^2.0",
+    "pyyaml": "^6.0",
+    "requests": "^2.28",
+    "rich": "^13.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ai",
+    "cli",
+    "openai",
+    "ollama",
+    "agent",
+    "automation"
+  ],
+  "author": "Cynetics Team",
+  "license": "MIT"
+}

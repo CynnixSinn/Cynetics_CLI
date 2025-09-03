@@ -1,0 +1,56 @@
+You are to create a next-generation command-line AI tool called **Cynetics CLI**.  
+The mission of Cynetics CLI is to be the most powerful, versatile, and extensible AI-driven CLI tool ever created.  
+
+### Core Requirements:
+1. **Universal Model Access**
+   - Support connecting to and switching between all major model providers: OpenAI, Anthropic, OpenRouter, Qwen, DeepSeek, Cohere, Google, etc.
+   - Support running local models seamlessly, regardless of provider (GGUF, Ollama, vLLM, llama.cpp, etc.).
+   - Allow hot-swapping models on the fly and hybrid workflows (e.g., local + cloud models working together).
+
+2. **MCP Tool Library**
+   - Ship with a massive library of MCP (Model Context Protocol) tools.
+   - Include a modular system so the user can install/remove/update tool packs dynamically.
+   - Tools should cover: coding, system automation, web scraping, data analysis, file management, devops, database queries, document processing, creative generation, agentic workflows, etc.
+
+3. **CLI Core Features**
+   - Support standard CLI conventions (`--help`, `--version`, etc.).
+   - Support both interactive REPL mode and single-command execution.
+   - Full support for environment variables, config files, and project-based configs.
+   - Rich TUI (Text User Interface) option with colorized outputs, progress bars, and dashboards.
+
+4. **Unique Next-Level Features**
+   - **Agent Mesh:** Allow spawning multiple AI agents that collaborate or compete, managed through the CLI.
+   - **Context Fusion:** Merge context from multiple models (cloud + local) into a single reasoning flow.
+   - **Model Voting/Consensus:** Use multiple models at once and produce results based on majority vote, best-of-N sampling, or weighted confidence.
+   - **Self-Extending CLI:** Cynetics CLI should be able to generate new subcommands or tools for itself on demand using its own AI abilities.
+   - **Adaptive Personality & Modes:** User can switch between tool-like precision, creative exploration, or autonomous long-running agent modes.
+   - **Cross-Protocol Operability:** Ability to bridge AI with APIs, SSH, containers, git workflows, cloud deployments, and even IoT devices directly from the CLI.
+   - **Knowledge Snapshots:** Save and reload state/context across sessions, so agents remember projects and tasks long-term.
+   - **Team Mode:** Multiple users can connect to the same CLI session collaboratively.
+
+5. **Architecture**
+   - Written in clean, modular, spec-driven code.
+   - Plugin architecture for models, providers, and MCP tools.
+   - Clear documentation and developer-friendly SDK to extend Cynetics CLI.
+   - Secure handling of API keys, configs, and local model weights.
+
+6. **Innovation Opportunities**
+   - Propose and implement unique CLI features that have not been seen before in AI CLI tools.  
+     Examples might include:  
+       • Conversational debugging of commands.  
+       • AI-driven CLI tutorials that teach new shell commands interactively.  
+       • Intelligent autocomplete that suggests entire workflows, not just flags.  
+       • Contextual “playbooks” for recurring multi-step tasks.  
+       • Multi-modal CLI (images, audio, text, video in/out).  
+       • Self-healing errors (Cynetics CLI detects and fixes broken commands or missing dependencies automatically).  
+       • Secure agentic task delegation where tasks can run in sandboxes or containers for safety.  
+
+### Deliverables:
+- Production-ready CLI application named `cynetics`.
+- Config system for model provider keys and local models.
+- Starter pack of MCP tools with ability to expand.
+- Extensible plugin system with clear developer docs.
+- Interactive REPL, single-command execution, and optional TUI.
+- A roadmap and notes on additional unique features you, the AI, can invent beyond those listed.
+
+Make sure the implementation is robust, modern, and truly sets Cynetics CLI apart as the **ultimate AI command-line tool.**

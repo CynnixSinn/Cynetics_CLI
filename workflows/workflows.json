@@ -1,0 +1,43 @@
+{
+  "git_setup": {
+    "name": "Git Setup",
+    "description": "Set up a new Git repository",
+    "tags": [
+      "git",
+      "version_control"
+    ],
+    "steps": [
+      "mkdir project_name",
+      "cd project_name",
+      "git init",
+      "echo '# Project Name' > README.md",
+      "git add README.md",
+      "git commit -m 'Initial commit'"
+    ]
+  },
+  "docker_build": {
+    "name": "Docker Build",
+    "description": "Build and run a Docker container",
+    "tags": [
+      "docker",
+      "containerization"
+    ],
+    "steps": [
+      "docker build -t app_name .",
+      "docker run -p 8080:8080 app_name"
+    ]
+  },
+  "python_env": {
+    "name": "Python Environment",
+    "description": "Set up a Python virtual environment",
+    "tags": [
+      "python",
+      "development"
+    ],
+    "steps": [
+      "python -m venv venv",
+      "source venv/bin/activate",
+      "pip install -r requirements.txt"
+    ]
+  }
+}

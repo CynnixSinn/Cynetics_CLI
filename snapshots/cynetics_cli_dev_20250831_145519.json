@@ -1,0 +1,24 @@
+{
+  "name": "cynetics_cli_dev",
+  "timestamp": "2025-08-31T14:55:19.502423",
+  "data": {
+    "context": {
+      "project_name": "Cynetics CLI",
+      "current_task": "Implement knowledge snapshots",
+      "completed_steps": [
+        "Set up project structure",
+        "Implement CLI with click",
+        "Create plugin system",
+        "Add agent capabilities"
+      ]
+    },
+    "tools": [
+      "file_manager",
+      "example_plugin"
+    ],
+    "model_preferences": {
+      "default_provider": "openai",
+      "fallback_provider": "ollama"
+    }
+  }
+}

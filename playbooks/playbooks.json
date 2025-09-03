@@ -1,0 +1,45 @@
+{
+  "417293f5-dbaa-4c3d-8394-e4361ae0a805": {
+    "id": "417293f5-dbaa-4c3d-8394-e4361ae0a805",
+    "name": "Sample Playbook",
+    "description": "A sample playbook for demonstration",
+    "steps": [
+      {
+        "name": "Create project directory",
+        "command": "mkdir {{project_name}}",
+        "description": "Create a new directory for the project"
+      },
+      {
+        "name": "Change to project directory",
+        "command": "cd {{project_name}}",
+        "description": "Navigate to the project directory"
+      },
+      {
+        "name": "Initialize Git repository",
+        "command": "git init",
+        "description": "Initialize a new Git repository"
+      },
+      {
+        "name": "Create README file",
+        "command": "echo '# {{project_name}}' > README.md",
+        "description": "Create a basic README file"
+      },
+      {
+        "name": "Add README to staging",
+        "command": "git add README.md",
+        "description": "Add the README file to the staging area"
+      },
+      {
+        "name": "Make initial commit",
+        "command": "git commit -m \"Initial commit\"",
+        "description": "Commit the initial README file"
+      }
+    ],
+    "tags": [
+      "demo"
+    ],
+    "created_at": "2025-09-02T20:25:07.211252",
+    "execution_count": 0,
+    "last_executed": null
+  }
+}

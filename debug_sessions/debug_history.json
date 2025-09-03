@@ -1,0 +1,11 @@
+[
+  {
+    "id": "219ea37d-276a-4e21-8d28-fed5d56437ea",
+    "command": "ls /nonexistent_directory",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "ls: cannot access '/nonexistent_directory': No such file or directory\n",
+    "success": false,
+    "executed_at": "2025-09-02T20:26:33.375704"
+  }
+]

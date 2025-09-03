@@ -1,0 +1,2 @@
+[console_scripts]
+cynetics = cynetics.cli.main:main

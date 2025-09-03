@@ -1,0 +1,19 @@
+- name: "Initialize Git Repository"
+  description: "Set up a new Git repository with initial commit"
+  command: "git init"
+  timeout: 10
+
+- name: "Add All Files"
+  description: "Add all files to the staging area"
+  command: "git add ."
+  timeout: 10
+
+- name: "Make Initial Commit"
+  description: "Create the initial commit with a standard message"
+  command: "git commit -m \"Initial commit\""
+  timeout: 15
+
+- name: "Create Main Branch"
+  description: "Create and switch to the main branch"
+  command: "git checkout -b main"
+  timeout: 10
